@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    padding-left: 5px;
+}
+
+header {
+    background-image: url(../images/header-background.jpg);
+}
+
+footer {
+    align-items: center;
+    background-color: #6f6456;
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contect-info {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cv-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-logo {
+    display: block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.icon {
+    color: white;
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+.internal-link {
+    color: #a1cfdd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.spec-personal-data {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-menu {
+    align-items: center;
+    background-color: #6f6456;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.spec {
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.spec-description {
+    margin-left: 113px;
+    margin-bottom: 10px;
+}
+
+.title {
+    background-color: #6f6456;
+    color: #a1cfdd;
+}

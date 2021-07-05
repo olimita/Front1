@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer, header {
+    background: #222222;
+    color: white;
+    display: flex;
+}
+
+header {
+    align-items: center;
+    height: 100px;
+}
+
+main {
+    background-color: rgb(229 229 229 / 45%);
+    display: flex;
+}
+
+main article {
+    width: 48%;
+}
+
+.first-article {
+    background-image: url(../images/delivery.jpg);
+    background-size: cover;
+    display: flex;
+    height: 350px;
+    margin: 35px 5px 35px 19px;
+    justify-content: center;
+}
+
+.first-article span, .second-article p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first-article span.inside {
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.first-article span.outside, .second-article p {
+    color: red;
+}
+
+.footer-button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.footer-button-section button {
+    background-color: Transparent;
+    border: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+}
+
+.header-logo {
+    margin: 10px 0px 10px 20px;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.header-nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu-option {
+    margin: 13px;
+}
+
+.pizza-table {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-table p {
+    color: black;
+    font-size: 20px;
+}
+
+.pizza-table ol li {
+    font-weight: 700;
+}
+
+.second-article {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+    margin: 35px 19px 35px 5px;
+}
+
+.whole-table {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}

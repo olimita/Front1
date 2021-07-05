@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+article {
+    background-size: cover;
+    display: inline-block;
+    height: 529px;
+    margin: 152px 15px 152px 15px;
+    position: relative;
+    width: 20%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    align-items: center;
+    background-color: rgb(229 229 229 / 45%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.batman-card-header, .harley-card-header {
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 36%;
+}
+
+.batman-card-header {
+    background-image: url(../images/baticueva.jpg);
+}
+
+.card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+    background-color: #F3F3F3;
+    height: 64%;
+    position: relative;
+}
+
+.card-button {
+    background-color: #00669F;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    height: 48px;
+    left: 28.5%;
+    position: absolute;
+    top: 269px;
+    width: 43%;
+}
+
+.card-description{
+    font-size: 16px;
+    margin: 10px 16px 0px 16px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 30px;
+    padding-top: 74px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.copyright {
+    background: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.harley-card-header {
+    background-image: url(../images/splash.jpg);
+}
+
+.heart-icon {
+    color: #CC2424;
+    font-size: 22px;
+    left: 21px;
+    position: absolute;
+    top: 16px;
+}
+
+.main-title {
+    background: #00669F;
+    font-size: 40px;
+    padding: 28px;
+    padding-bottom: 26px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: auto;
+    left: 32.5%;
+    position: relative;
+    top: 58%;
+    width: 35%;
+    z-index: 10;
+}
+
+.sale-title {
+    background: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media (max-width: 1750px) {
+
+    .profile-photo {
+        left: 30%;
+        width: 40%;
+        top: 62%;
+    }
+}
+
+@media (max-width: 1350px) {
+    article {
+        width: 35%;
+    }
+
+    .profile-photo {
+        left: 35%;
+        width: 30%;
+        top: 66%;
+    }
+}
+
+@media (max-width: 800px) {
+    article {
+        width: 80%;
+    }
+
+    .profile-photo {
+        left: 39.5%;
+        width: 21%;
+        top: 68.5%;
+    }
+
+    
+}

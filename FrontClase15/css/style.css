@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #3C2313;
+    color: white;
+}
+
+header {
+    background-color: #F0A83E;
+    color: white;
+    font-weight: 400;
+}
+
+section p {
+    color: #3C2313;
+}
+
+.banner-info {
+    align-items: center;
+    display: flex;
+    
+    height: auto;
+    justify-content: center;
+    width: 40%;
+}
+
+.banner-info * {
+    color: #3C2313;
+    margin: 10px;
+}
+
+.banner-section {
+    align-items: flex-end;
+    display: flex;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    flex-direction: column;
+    height: 466px;
+    justify-content: center;
+}
+
+.banner-section div {
+    align-items: center;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    width: 40%;
+}
+
+.banner-section div * {
+    margin: 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 22%;
+}
+
+.contact-buttons button {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    height: 40px;
+    width: 48%;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 24px 7%;
+}
+
+.contact-info-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.contact-info-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-info-description {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.contact-info-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+}
+
+.contact-inputs p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-inputs input {
+    background: #3C2313;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    width: 100%;
+}
+
+.contact-inputs input::placeholder {
+    color: white;
+    font-size: 9px;
+    left: 10px;
+    position: relative;
+}
+
+.contact-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+
+.copyrights-container {
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+
+.copyrights-content {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.featured-categories {
+    color: #666666;
+}
+
+.featured-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-right: 7%;
+}
+
+.header-links {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.header-links nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-links nav ul li{
+    display: flex;
+}
+
+.header-links nav ul li img{
+    margin-right: 5px;
+}
+
+.header-links nav ul li p{
+    margin-right: 45px;
+}
+
+.header-logo {
+    margin-left: 4%;
+}
+
+.icon {
+    color: white;
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+.language-options {
+    display: flex;
+    margin-right: 5%;
+}
+
+.price, .product-name {
+    text-align: center;
+}
+
+.price {
+    color: #F0A83E;
+}
+
+.product-name {
+    font-weight: 500;
+}
+
+.products-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products-items div {
+    margin: 5px;
+}
+
+.products-section {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products-section-titles {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products-section-titles * {
+    margin: 10px;
+}
+
+.reset-button {
+    background-color: #8A8787;
+}
+
+.sale-item {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 23px 15px 23px;
+}
+
+.sale-item-offer {
+    padding-top: 24px;
+}
+
+.sales-offer {
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    font-size: 10px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.sales-offer p {
+    margin-left: 9%;
+}
+
+.send-button {
+    background-color: #F0A83E;
+}
+
+.subcribe-section {
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.subcribe-section div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.subcribe-section div button {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    height: 35px;
+    width: 70px;
+}
+
+.subcribe-section div img {
+    margin-left: 15px;
+}
+
+.subcribe-section div input {
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    width: 52%;
+    align-self: flex-end;
+}
+
+.subcribe-section input::placeholder {
+    color: #A0A0A0;
+    font-size: 9px;
+    left: 8px;
+    position: relative;
+}
+
+.subcribe-section div span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.subscribe-section-inputs {
+    justify-content: flex-end;
+}
+
+.welcome-message {
+    background: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media (max-width: 600px) {
+    .banner-section {align-items: center;}
+    .contact-buttons {
+        width: 97%;
+    }
+    .contact-buttons button {
+        border-radius: 25px;
+        height: 45px;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-inputs {
+        width: 72%;
+    }
+    .contact-inputs input::placeholder {
+        color: #AB9C9C;
+    }
+    .footer-info {
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-logo {order: -1;}
+    .sales-offer {display: none;}
+    .sale-title {color: white;}
+    .subcribe-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subcribe-section div { 
+        justify-content: center;
+        width: 100%;
+    }
+    .topnav {display: none;}
+    .welcome-message {font-size: 22px;}
+}
